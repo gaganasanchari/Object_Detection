@@ -3,10 +3,10 @@ import cv2
 import os 
 import glob
 
-input_image_folder = "/home/ganesh/Videos/Jayesh_CV/dataset_Old/images"
+input_image_folder = "/dataset_Old/images"
 
-output_image_folder ="/home/ganesh/Videos/Jayesh_CV/dataset_Old/images/Obj_Detection/Objs_Identified"
-output_boxes_folder ="/home/ganesh/Videos/Jayesh_CV/dataset_Old/images/Obj_Detection/labels_boxes"
+output_image_folder ="/images/Obj_Detection/Objs_Identified"
+output_boxes_folder ="/images/Obj_Detection/labels_boxes"
 
 # Load pre-trained YOLOv8 model (you can also train your own)
 model = YOLO("yolov8n.pt")  # 'yolov8n.pt' is the pre-trained model
